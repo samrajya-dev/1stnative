@@ -13,7 +13,7 @@ const homeName='Home';
 const detailsName='Details';
 const settingsName='Settings';
 
-const Tab = createBottomTabNavigatoe();
+const Tab = createBottomTabNavigator();
 
 export default function MainContainer() {
     return (
