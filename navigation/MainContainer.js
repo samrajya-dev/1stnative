@@ -35,12 +35,18 @@ export default function MainContainer() {
                             return <Ionicons name={iconName} size={size} color={color} />;
                         },
                 })}
-                TabBarOptions={{
+                tabBarOptions={{
                     activeTintColor: 'tomato',
                     inactiveTintColor: 'gray',
-                    labbelStyle: { paddingBottom: 10, fontSize: 10 },
+                    labelStyle: { paddingBottom: 10, fontSize: 10 },
                     style: { padding: 10, height: 60 }
                 }}
+                // screenOptions={{ 
+                //     tabBarActiveTintColor: 'tomato',
+                //     tabBarInactiveTintColor: 'gray',
+                //     tabBarLabelStyle: { paddingBottom: 10, fontSize: 10 },
+                //     tabBarStyle: [{ display: 'flex' }, null]
+                //  }}
                 >
 
                 <Tab.Screen name={homeName} component={HomeScreen} />
